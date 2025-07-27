@@ -48,3 +48,68 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# Habit Tracker App (React Native + Appwrite)
+
+This is a simple Habit Tracking mobile app built with **React Native (Expo)** and **Appwrite** as the backend. It allows users to:
+
+- Sign up & log in (Authentication)
+- Add, list, and track habits
+- Delete habits (with long press interaction)
+- Store data securely with Appwrite’s database
+- Cancel delete mode easily with a cancel button
+
+## 📸 Screenshots
+
+| Habit Cards | Long Press to Delete | Delete + Cancel |
+ 
+<img src="https://github.com/user-attachments/assets/2efeb854-702a-431b-992f-7e33dfa33d5f" width="200" />
+
+
+## ⚙️ Tech Stack
+
+- React Native (Expo)
+- Appwrite (Database + Auth)
+
+
+## 📁 Project Structure
+
+
+
+
+## 🔐 Authentication
+
+Handled using Appwrite’s account APIs. Users must log in or sign up before accessing habit tracking features.
+
+## 🗃️ Database Schema
+
+Appwrite Collection: `HABITS_COLLECTION_ID`
+
+| Field Name | Type   | Required |
+|------------|--------|----------|
+| title      | string | ✅       |
+| userId     | string | ✅       |
+
+## 💡 Features
+
+- 🧠 Add & track multiple habits
+- 👆 Long-press to delete (with visual blur effect)
+- ❌ Cancel delete mode if user changes mind
+- 🔐 Secure per-user data access with Appwrite
+
+## 🏃 Getting Started
+
+1. **Clone the Repo**
+   ```bash
+   git clone https://github.com/yourusername/habit-tracker-app.git
+   cd habit-tracker-app
+```
+## Environment Variables
+
+```bash
+APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+APPWRITE_PROJECT_ID=your_project_id
+APPWRITE_DATABASE_ID=your_db_id
+APPWRITE_HABITS_COLLECTION_ID=your_collection_id
+```
+# thank you
