@@ -63,7 +63,14 @@ This is a simple Habit Tracking mobile app built with **React Native (Expo)** an
 
 | Habit Cards | Long Press to Delete | Delete + Cancel |
  
+
+
 <img src="https://github.com/user-attachments/assets/2efeb854-702a-431b-992f-7e33dfa33d5f" width="200" />
+  <img src="https://github.com/user-attachments/assets/9579e7c3-2e62-4e68-87ee-bfbca22b1ffa" width="200" />
+  <img src="https://github.com/user-attachments/assets/73df6635-4f02-4a2b-8000-58712dff521c" width="200" />
+  <img src="https://github.com/user-attachments/assets/2fd7096c-4945-452d-93ce-d81e17d82041" width="200" />
+  <img src="https://github.com/user-attachments/assets/dac4c931-9645-4acc-8718-e9af59be144d" width="200" />
+
 
 
 ## ⚙️ Tech Stack
